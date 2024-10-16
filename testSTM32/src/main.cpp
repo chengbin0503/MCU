@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // 包含 Arduino 库。
 #include <Arduino.h>
 
@@ -42,3 +43,23 @@ void loop() {
   // 暂停一段时间后重新播放。
   delay(2000);
 }
+=======
+#include <Arduino.h>
+
+// put function declarations here:
+int myFunction(int, int);
+
+void setup() {
+  // put your setup code here, to run once:
+  int result = myFunction(2, 3);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+}
+
+// put function definitions here:
+int myFunction(int x, int y) {
+  return x + y;
+}
+>>>>>>> 40bef4cc9d60f52d1f97c89b3db7b4df66f04d97
